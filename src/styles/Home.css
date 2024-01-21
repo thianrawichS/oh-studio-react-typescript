@@ -1,0 +1,14 @@
+#hero {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+@media (max-width:767px) {
+    #hero {
+        font-size: xx-large;
+    }
+
+    #sub-hero {
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5e5a5a33;
+    backdrop-filter: blur(10px) ;
+  }
+
+.image-block:hover .overlay{
+    opacity: 1;
+}
+
+.image-title {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .overlay {
+        display: none;
+    }
+    .image-title {
+        display: block;
+    }
+}

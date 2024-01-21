@@ -1,0 +1,18 @@
+#signature-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#signature-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    #signature-left {
+        justify-content: center;
+    }
+    #signature-right {
+        justify-content: center;
+    }
+}
