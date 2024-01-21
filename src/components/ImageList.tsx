@@ -30,7 +30,7 @@ const ImageList = () => {
   if (isLoading)
     return (
       <div
-        className="d-flex justify-content-center align-items-center"
+        className="d-flex justify-content-center align-items-center vh-100"
         id="loading"
       >
         Loading...

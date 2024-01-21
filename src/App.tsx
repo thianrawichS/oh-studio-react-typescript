@@ -4,6 +4,9 @@ import Footer from './components/Footer';
 import { Outlet } from 'react-router-dom';
 
 function App() {
+  React.useEffect(() => {
+    window.history.scrollRestoration = 'manual';
+  }, []);
   return (
     <>
       <div className="min-vh-100">
